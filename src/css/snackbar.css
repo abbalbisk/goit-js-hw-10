@@ -1,0 +1,98 @@
+.form{
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 360px;
+  margin: 0 auto;
+
+}
+
+.formlabel{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.formlabel input{
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  min-width: 360px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+
+}
+
+.formlabel input:hover {
+  border: 1px solid #000;
+}
+.stateradio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  max-width: 360px;
+  height: 64px;
+  padding: 0;
+}
+
+.stateradio:hover,
+.stateradio:focus {
+  border: 1px solid #000;
+}
+
+
+.stateradio legend {
+ text-align: left;
+ margin-left: 24px;
+
+}
+
+.stateinput {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+
+
+}
+
+.btncreate {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.btncreate:hover {
+  background-color: #6c8cff;
+}
